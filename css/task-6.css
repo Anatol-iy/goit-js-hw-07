@@ -1,0 +1,35 @@
+#controls {
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  width: fit-content;
+  gap: 16px;
+  background: #f6f6fe;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.container:empty {
+  display: none;
+}
+
+
+.number-input {
+  width: 150px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+button[data-destroy]:hover {
+  background-color: #e62f2f;
+}
